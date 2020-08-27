@@ -1,6 +1,7 @@
 <template>
   <div id="home">
-    Home Page
+    <br/>
+    <h1>HOME</h1>
   </div>
 </template>
 

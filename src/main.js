@@ -20,12 +20,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 const routes = [
   {
     path: "/",
+    name: "home",
     component: Home
   },
 
   {
     path: "/music",
-    name: 'music',
+    name: "music",
     component: Music
   },
 

@@ -1,6 +1,6 @@
 <template>
   <div id="music">
-    Sean Digital Studios
+    Music Page
   </div>
 </template>
 
