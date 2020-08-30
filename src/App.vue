@@ -12,14 +12,18 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-5">
-          <b-nav-text>Software</b-nav-text>
+          <b-nav-text>My Services</b-nav-text>
         </b-navbar-nav>
         <b-navbar-nav class="ml-5">
-          <b-nav-text>Studio</b-nav-text>
+          <b-nav-text>My Work</b-nav-text>
         </b-navbar-nav>
         <b-navbar-nav class="ml-5">
           <b-nav-text >Who is this Sean guy?</b-nav-text>
         </b-navbar-nav>
+        <b-navbar-nav class="ml-5">
+          <b-nav-text>Studio</b-nav-text>
+        </b-navbar-nav>
+
       </b-collapse>
     </b-navbar>
 
@@ -42,6 +46,7 @@ export default {
 body, html{
   overflow: scroll;
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 hr.long {
