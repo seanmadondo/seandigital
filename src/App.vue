@@ -21,7 +21,7 @@
           <b-nav-text >Who is this Sean guy?</b-nav-text>
         </b-navbar-nav>
         <b-navbar-nav class="ml-5">
-          <b-nav-text>Studio</b-nav-text>
+          <b-nav-text> <b-button class="buttonPos" pill variant="outline-danger">Studio </b-button></b-nav-text>
         </b-navbar-nav>
 
       </b-collapse>
