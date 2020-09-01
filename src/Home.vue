@@ -1,5 +1,8 @@
 <template>
   <div id="home">
+
+<!--    ======================================= SECTION 1 of (Landing Page) =========================================-->
+
     <br/><br/><br/><br/><br/><br/>
     <section id ="section1">
       <h5 class="animate__animated animate__heartBeat" style="font-size:5vw;">Your Brand,</h5>
@@ -9,6 +12,7 @@
     <hr class="solid animate__animated animate__bounceInRight">
     <br/><br/>
 
+<!--    ================================================ SECTION 2 ====================================================-->
 
     <section class="section2">
       <h1 class="offerCSS animate__animated animate__bounceInLeft" style="font-size:4vw;"> My Services </h1>
@@ -17,34 +21,57 @@
     </section>
 
     <br/><br/>
-    <hr class="solid">
+<!--    <hr class="solid">-->
     <br/><br/>
+<!--    ================================================ SECTION 3 ====================================================-->
 
-    <section class="section3" >
-      <h1 class="offerCSS" style="font-size:4vw;" data-aos="zoom-in-up" > App & Web Development </h1>
+    <section class="section3">
+      <h1 class="offerCSS" style="font-size:4vw;" data-aos="zoom-in-up" data-aos-duration="1000"> App & Web Development </h1>
       <br/>
-      <h6 class="description"> I'm committed to building modernised mobile, website & desktop
-        applications together with the backend systems that keep them running. My
-        speciality is in Full Stack, Mobile App and UI/UX development.</h6>
+      <h6 class="description" data-aos="zoom-in-up" data-aos-duration="2000">
+        I design & build modernised mobile, website & desktop
+        applications together with the backend systems that keep them running.
+        In more techy terms, I am a UI/UX and Full Stack Developer.
+     </h6>
       <br/>
       <h6 class="description"><b-button class="buttonPos" pill variant="outline-danger">Enquire</b-button></h6>
-<!--      <img src="./assets/AppDev.png" width="700" height="280" class="center" data-aos="fade-up" data-aos-duration="1800">-->
-      <img src="./assets/Apps.png" width="700" height="280" class="center" data-aos="fade-up" data-aos-duration="2000">
+      <img src="./assets/Apps.png" width="700" height="280" class="center" data-aos="fade-up" data-aos-duration="2300">
     </section>
 
     <hr class="solid">
     <br/><br/>
 
+<!--    ================================================ SECTION 3-1 ====================================================-->
+
+    <section class="section3-1">
+      <h1 class="offerCSS" style="font-size:4vw;" data-aos="fade-up-left" data-aos-duration="1000"> End-to-End Production</h1>
+      <br/>
+      <h6 class="description" data-aos="fade-up-right" data-aos-duration="2000">
+        I'll help you nail down your problem and take you through the software development journey,
+        from sketching ideas right through releasing and maintaining your product.
+      </h6>
+      <br/>
+      <h6 class="description"><b-button class="buttonPos" pill variant="outline-danger">Enquire</b-button></h6>
+      <img src="./assets/Process.png" width="700" height="280" class="center" data-aos="fade-up" data-aos-duration="2300">
+    </section>
+
+    <hr class="solid">
+    <br/><br/>
+
+<!--    ================================================ SECTION 4 ====================================================-->
+
     <section class="section4">
-      <h1 data-aos="fade-right" class="offerCSS" style="font-size:4vw;">Tech Stack </h1>
-      <h6 data-aos="fade-left" class="description"> As you will be able to see from
+      <h1 data-aos="fade-right" data-aos-duration="2000" class="offerCSS" style="font-size:4vw;">Tech Stack </h1>
+      <h6 data-aos="fade-left" data-aos-duration="2000" class="description"> As you will be able to see from
         my tech stack below, I’m very passionate about keeping up to date with the most relevant
-        technologies and using this effectively to build world class apps!</h6>
+        technologies and using these effectively to build world class apps!</h6>
       <img src="./assets/techStack.gif" width="700" height="280" class="center" data-aos="fade-up">
     </section>
 
     <hr class="solid">
     <br/><br/>
+
+<!--    ================================================ SECTION 5 ====================================================-->
 
     <section class="section5">
       <h1 class="offerCSS" style="font-size:4vw;"> My Work (Coming Soon)</h1>
@@ -53,19 +80,24 @@
     <hr class="solid">
     <br/><br/>
 
+<!--    ================================================ SECTION 5 ====================================================-->
+
     <section class="section6">
-      <h1 data-aos="zoom-in-up" class="offerCSS" style="font-size:4vw;"> Who is this Sean guy?</h1>
+      <h1 data-aos="fade-left" data-aos-duration="2000" class="offerCSS" style="font-size:4vw;"> Who is this Sean guy?</h1>
+      <br/>
+      <img src="./assets/sean.png" data-aos="fade-right" data-aos-duration="2000" width="250" height="250" class="seanPhoto">
       <br/>
       <h6 class="description"> Sean Madondo</h6>
-      <h6 class="description"> Full Stack Software Engineer | UI/UX Designer | Music Director </h6>
+      <h6 class="description"> Full Stack Software Engineer | UI/UX Designer | Music Director (hobby) </h6>
       <br/>
       <h6 class="description">
-        <i class="fa fa-github-square fa-4x"></i>
-        <i class="fa fa-linkedin-square fa-4x"></i>
-        <i class="fa fa-envelope-o fa-4x"></i>
+        <i class="fa fa-github-square fa-4x" onclick="window.open('https://github.com/seanmadondo', '_blank')"></i>
+        <i class="fa fa-linkedin-square fa-4x" onclick="window.open('https://www.linkedin.com/in/sean-madondo-b1399213a/', '_blank')"></i>
+        <i class="fa fa-facebook-square fa-4x" onclick="window.open('https://www.facebook.com/sean.madondo.7', '_blank')"></i>
       </h6>
       <br/>
-      <h6 class="description"><b-button class="buttonPos" pill variant="outline-danger">Check out my Studio</b-button></h6>
+      <h6 class="description"><i class="fa fa-envelope-o"></i> seanmadondo@gmail.com</h6>
+<!--      <h6 class="description"><i class="fa fa-phone-square"></i> +64 22 31 86 935 </h6>-->
     </section>
 
     <br/><br/>
@@ -124,12 +156,18 @@ h6.description {
   width: 60%;
 }
 
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  height: auto;
+}
+
+.seanPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
 }
 
