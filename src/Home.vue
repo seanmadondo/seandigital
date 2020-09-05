@@ -31,7 +31,7 @@
       <h6 class="description" data-aos="zoom-in-up" data-aos-duration="2000">
         I design & build modernised mobile, website & desktop
         applications together with the backend systems that keep them running.
-        In more techy terms, I am a UI/UX and Full Stack Developer.
+        In more techy terms, I am a Full Stack Developer with an eye for design!
      </h6>
       <br/>
       <h6 class="description"><b-button class="buttonPos" pill variant="outline-danger">Enquire</b-button></h6>
@@ -47,8 +47,8 @@
       <h1 class="offerCSS" style="font-size:4vw;" data-aos="fade-up-left" data-aos-duration="1000"> End-to-End Production</h1>
       <br/>
       <h6 class="description" data-aos="fade-up-right" data-aos-duration="2000">
-        I'll help you nail down your problem and take you through the software development journey,
-        from sketching ideas right through releasing and maintaining your product.
+        Using my problem solving skills, I can nail down any problem and take it through the software development journey,
+        from sketching ideas right through releasing and maintaining the product.
       </h6>
       <br/>
       <h6 class="description"><b-button class="buttonPos" pill variant="outline-danger">Enquire</b-button></h6>
@@ -65,7 +65,7 @@
       <h6 data-aos="fade-left" data-aos-duration="2000" class="description"> As you will be able to see from
         my tech stack below, I’m very passionate about keeping up to date with the most relevant
         technologies and using these effectively to build world class apps!</h6>
-      <img src="./assets/techStack.gif" width="700" height="280" class="center" data-aos="fade-up">
+      <img src="./assets/Stack.png" width="700" height="280" class="center" data-aos="fade-up">
     </section>
 
     <hr class="solid">
